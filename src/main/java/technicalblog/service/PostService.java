@@ -10,6 +10,10 @@ import java.util.Date;
 @Service
 public class PostService {
 
+    public PostService() {
+        System.out.println("*** PostService ***");
+    }
+
     public ArrayList<Post> getAllPosts(){
         ArrayList<Post> posts = new ArrayList<>();
 
